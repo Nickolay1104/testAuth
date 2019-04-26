@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;   
+} 
+
+body {
+    background-image: url("homeimg.jpg");
+    background-size: cover;
+}
+.container { 
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;   
+    align-items: center;
+    background-color: rgba(54, 49, 49, 0.8);
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+
+h1 {
+    font-size: 96px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    color: rgb(144, 195, 243);
+}
+
+p {
+    color: white;
+    font-size: 33px;
+}
+
+.bottomAR {
+    margin: 30px; 
+}
+
+.bottomAR a {
+    padding: 7px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.bottomAR a:hover {
+    border: 2px solid rgb(144, 195, 243);
+}
