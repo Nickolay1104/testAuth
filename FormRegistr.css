@@ -76,6 +76,10 @@ form {
     outline: none;
 }
 
+.butReg:hover {
+    border: 2px solid #333333;
+}
+
 input:hover {
     border-bottom-color: #a55c04;
 }
